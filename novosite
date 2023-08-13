@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Site de Esportes</title>
+    <style>
+        /* Estilos de CSS aqui */
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Site de Esportes</h1>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="volleyball.html">Vôlei</a> |
+            <a href="football.html">Futebol</a> |
+            <a href="basketball.html">Basquete</a>
+        </nav>
+    </header>
+    
+    <section id="content">
+        <h2>Saiba Mais Sobre Esportes</h2>
+        <p>Este site é dedicado a explorar informações sobre diferentes esportes populares.</p>
+    </section>
+    
+    <section id="volleyball">
+        <h2>Vôlei</h2>
+        <img src="volleyball.jpg" alt="Imagem de Vôlei">
+        <p>O vôlei é um esporte de equipe...</p>
+        <p>Foi criado em 1895 por William G. Morgan...</p>
+        <!-- Mais informações sobre vôlei -->
+    </section>
+    
+    <section id="football">
+        <h2>Futebol</h2>
+        <img src="football.jpg" alt="Imagem de Futebol">
+        <p>O futebol, conhecido como soccer em alguns lugares...</p>
+        <p>O futebol moderno surgiu na Inglaterra no século XIX...</p>
+        <!-- Mais informações sobre futebol -->
+    </section>
+    
+    <section id="basketball">
+        <h2>Basquete</h2>
+        <img src="basketball.jpg" alt="Imagem de Basquete">
+        <p>O basquete é um esporte de equipe que envolve...</p>
+        <p>Foi inventado por James Naismith em 1891...</p>
+        <!-- Mais informações sobre basquete -->
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 Site de Esportes</p>
+    </footer>
+</body>
+</html>
