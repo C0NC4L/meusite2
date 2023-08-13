@@ -9,66 +9,54 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #FFDF6C;
-            color: #333;
+            background-color: #F5F5F5;
         }
-        header {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 1.5rem;
-        }
-        section {
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
             padding: 2rem;
-            margin: 1rem;
-            background-color: #fff;
+            min-height: 100vh;
+        }
+        .text-content {
+            flex: 1;
+            padding: 2rem;
+            background-color: rgba(255, 255, 255, 0.8);
             border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        h1, h2 {
-            font-family: 'Bebas Neue', sans-serif;
-            color: #222;
-            margin-bottom: 0.5rem;
+        .text-content h2 {
+            color: #333;
+            margin-bottom: 1rem;
         }
-        p {
-            font-size: 1.1rem;
+        .text-content p {
+            color: #555;
             line-height: 1.6;
         }
-        footer {
-            background-color: #222;
-            color: white;
-            text-align: center;
-            padding: 1rem;
+        .image-content {
+            flex: 1;
+            display: flex;
+            justify-content: flex-end;
         }
-        /* Estilos específicos de cada seção */
-        #volleyball {
-            background-color: #FF6F61;
+        .image-content img {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
     </style>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Bem-vindo ao <span style="color: #FF6F61;">Mundo do</span> Vôlei</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="volleyball.html">Vôlei</a>
-            <a href="football.html">Futebol</a>
-            <a href="basketball.html">Basquete</a>
-        </nav>
-    </header>
-    
-    <section id="volleyball">
-        <h2>A Arte do Vôlei</h2>
-        <img src="volleyball.jpg" alt="Imagem de Vôlei">
-        <p>O vôlei, esse esporte incrível que combina força, agilidade e trabalho em equipe, é uma paixão para muitos. Criado em 1895 por William G. Morgan nos Estados Unidos, o vôlei rapidamente se espalhou pelo mundo e se tornou uma das modalidades esportivas mais emocionantes.</p>
-        <p>Com sua quadra dividida por uma rede, o vôlei proporciona confrontos intensos entre duas equipes que buscam colocar a bola no chão adversário, seja através de potentes ataques ou saques precisos. A habilidade em bloquear o ataque adversário é uma das características mais marcantes desse esporte, onde cada ponto conquistado é motivo de celebração.</p>
-        <p>Além da emoção das partidas, o vôlei também traz consigo valores fundamentais, como a cooperação, a comunicação e o respeito entre os jogadores. Dentro e fora das quadras, o espírito esportivo e o trabalho em equipe são essenciais para alcançar o sucesso.</p>
-        <p>Seja praticando em clubes, escolas ou competições internacionais, o vôlei une pessoas de todas as idades e origens em torno da paixão pelo esporte. O som da bola sendo tocada e a vibração das torcidas são marcas registradas de um jogo de vôlei inesquecível.</p>
-    </section>
-    
-    <footer>
-        <p>&copy; 2023 Mundo do Vôlei</p>
-    </footer>
+    <div class="container">
+        <div class="text-content">
+            <h2>A Magia do Vôlei</h2>
+            <p>O vôlei, um esporte repleto de emoções e desafios, conquistou corações em todo o mundo. Desde sua criação em 1895, pelo visionário William G. Morgan, o vôlei tem inspirado atletas a alcançar a excelência e a trabalhar em equipe para alcançar a vitória.</p>
+            <p>Com uma quadra dividida por uma rede, o vôlei exige agilidade, precisão e comunicação entre os jogadores. Cada partida é um espetáculo de força e técnica, enquanto jogadores saltam e mergulham para defender e atacar a bola.</p>
+            <p>Além da competição, o vôlei promove valores essenciais como respeito, amizade e fair play. É uma celebração da diversidade, reunindo pessoas de diferentes origens para compartilhar a paixão pelo esporte.</p>
+        </div>
+        <div class="image-content">
+            <img src="volleyball-image.jpg" alt="Imagem de Vôlei">
+        </div>
+    </div>
 </body>
 </html>
