@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maquininha Ton Stone - Página Inicial</title>
+    <style>
+        body {
+            background-color: white;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #00A864; /* Cor verde da Ton */
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            padding: 0;
+        }
+        nav ul li {
+            margin: 0 20px;
+        }
+        section {
+            padding: 30px;
+        }
+        .conversion-text {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Maquininha Ton Stone</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre a Maquininha</a></li>
+                <li><a href="#analise">Análise da Maquininha</a></li>
+                <!-- Adicione mais links para outras seções aqui -->
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="inicio">
+        <h2>Taxas Acessíveis da Maquininha Ton</h2>
+        <p>A maquininha Ton da Stone oferece taxas competitivas para processamento de pagamentos. Se você está procurando uma solução de pagamento confiável e econômica, a Ton é uma excelente escolha.</p>
+        <img src="ton.png" alt="Maquininha Ton" width="300" height="200">
+        <p class="conversion-text">Não perca tempo, aproveite as vantagens da Maquininha Ton hoje mesmo!</p>
+    </section>
+
+    <!-- Adicione mais seções conforme sua necessidade -->
+
+    <footer>
+        <p>&copy; 2023 Seu Nome. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
